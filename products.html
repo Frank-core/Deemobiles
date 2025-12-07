@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Home - DeeMobile </title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+	<img src="iamges/logo.png" alt="DeeMobile Logo" class="Logo">
+	
+	<nav id="navMenu">
+		<a href= "index.html">Home</a>
+		<a href= "Products.html">Products</a>
+		<a href= "Services.html">Services</a>
+		<a href= "Register.html">Register</a>
+	</nav>
+	
+	<button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+</header>
+<h1>Latest Phones</h1>
+<section class="Product-grid">
+	<div class="product-card">
+		<img scr="iamges/samsung phone.jpg" alt="samsung phone" 			class="responsive-img">
+		<h3> Samsung Galaxy S 25 Ultra</h3>
+		<p> Tuff Screen, Fast Charge, Real life Camera.</p>
+		<strong> $799 </strong>
+	</div>
+
+	<div class="product-card">
+		<img scr="iamges/iPhone.jpg" alt="iPhone" 			class="responsive-img">
+		<h3> iPhone 17</h3>
+		<p> Quick Repsonse, Tuff Screen, AI Embeded.</p>
+		<strong> $9,155 </strong>
+
+<footer>@ 2025 DeeMobile </footer>
+
+<script>
+function toggleMenu(){
+	document.getElementById("navMenu").classList.toggle("open");}
+</script>
+</body>
+</html>
